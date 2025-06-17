@@ -58,7 +58,7 @@ function Actor() {
                     <li className="mb-8">
                         <div className="flex flex-col">
                             <div>
-                                Apresentação Teatral - Ator - Mostra Cênica "Farsa", de Luís Fernando Veríssimo - Fevereiro 2023 a Agosto 2023 (7 meses)
+                                Apresentação Teatral - Ator - Mostra Cênica &quot;Farsa&quot;, de Luís Fernando Veríssimo - Fevereiro 2023 a Agosto 2023 (7 meses)
                                 <ul className="list-disc pl-5 my-2">
                                     <li>Primeira apresentação - 28 de junho de 2023 - Senac Franca</li>
                                     <li>Segunda apresentação - 26 de agosto de 2023 - Ponto de Cultura Espaço Nulo</li>
@@ -67,7 +67,7 @@ function Actor() {
                             
                             {/* Clipping da Farsa */}
                             <div className="mt-4">
-                                <h3 className="text-xl font-semibold mb-3">Registros sobre a Peça "Farsa"</h3>
+                                <h3 className="text-xl font-semibold mb-3">Registros sobre a Peça &quot;Farsa&quot;</h3>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                                     {[1, 2, 3, 4, 5, 6, 7].map((num) => (
                                         <div key={num} className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -98,14 +98,14 @@ function Actor() {
                             Produção de vídeos para o TikTok, Instagram e YouTube - Produtor e Ator - 2024 - até o momento
                         </li>
                         <li>
-                            Apresentação Teatral - Ator - Peça de Teatro "Corra, Elise, Corra" - de Carlos Drummond de Andrade, Andy Weir, Grace Passô e Mauro Júnior - Novembro 2024 a Março 2025 (5 meses)
+                            Apresentação Teatral - Ator - Peça de Teatro &quot;Corra, Elise, Corra&quot; - de Carlos Drummond de Andrade, Andy Weir, Grace Passô e Mauro Júnior - Novembro 2024 a Março 2025 (5 meses)
                             <ul className="list-disc pl-5 mt-2">
                                 <li>Primeira apresentação - 15 de março de 2025 - Teatro Judas Iscariotes</li>
                                 <li>Primeira apresentação - 16 de março de 2025 - Teatro Judas Iscariotes</li>
                             </ul>
                         </li>
                         <li>
-                            Apresentação Teatral - Ator - Mostra Cênica "Farsa", de Luís Fernando Veríssimo - Fevereiro 2023 a Agosto 2023 (7 meses)
+                            Apresentação Teatral - Ator - Mostra Cênica &quot;Farsa&quot;, de Luís Fernando Veríssimo - Fevereiro 2023 a Agosto 2023 (7 meses)
                             <ul className="list-disc pl-5 mt-2">
                                 <li>Primeira apresentação - 28 de junho de 2023 - Senac Franca</li>
                                 <li>Segunda apresentação - 26 de agosto de 2023 - Ponto de Cultura Espaço Nulo</li>

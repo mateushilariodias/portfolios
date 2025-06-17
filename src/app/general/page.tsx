@@ -46,6 +46,10 @@ function General() {
                     <h2 className="text-2xl font-bold mb-4">Educação</h2>
                     <ul className="list-disc pl-5">
                         <li>Imersão Teatral - Instituto Arte e Vida - Mauro Júnior - Agosto 2024 a Julho 2025</li>
+                        <li>Fotografia - Instituto Federal de Educação, Ciência e Tecnologia de Goiás - Curso Livre Online - 2025 - 60h</li>
+                        <li>Sonorização - Instituto Federal de Educação, Ciência e Tecnologia de Goiás - Curso Livre Online - 2025 - 60h </li>
+                        <li>Prestação de Contas de Propostas Simplificadas - Instituto Federal de Educação, Ciência e Tecnologia de Goiás - Curso Livre Online - 2025 - 60h</li>
+                        <li>Submissão de Propostas Simplificadas - Instituto Federal de Educação, Ciência e Tecnologia de Goiás - Curso Livre Online - 2025 - 60h</li>
                         <li>Escrita e formatação de roteiro audiovisual de 1 min - Workshop de Escrita - Alexis Nehemy - Fevereiro 2025</li>
                         <li>Elaboração de Projetos e Propostas Simplificadas - Instituto Federal de Educação, Ciência e Tecnologia de Goiás - Curso Livre Online - 2025 - 60h</li>
                         <li>Produção Audiovisual - Instituto Federal de Educação, Ciência e Tecnologia de Goiás - Curso Livre Online - 2024 - 60h</li>
