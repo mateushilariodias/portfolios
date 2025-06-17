@@ -1,4 +1,5 @@
-'use cluent'
+'use client'
+import Image from 'next/image';
 
 function Actor() {
     return (
@@ -11,9 +12,9 @@ function Actor() {
                 </div>
             </header>
 
-            {/* Conteúdo Principal */}
+            {/* Main Content */}
             <div className="container mx-auto px-4 py-8">
-                {/* Sobre Mim */}
+                {/* About Me */}
                 <section className="bg-white shadow-md rounded-lg p-6 mb-6">
                     <h2 className="text-2xl font-bold mb-4">Sobre Mim</h2>
                     <p className="mb-2">Altura: 1,79m | Peso: 55 kg | Cabelo loiro ondulado | Olhos azuis.</p>
@@ -25,7 +26,7 @@ function Actor() {
                     <p>Localização: Franca - SP (Disponibilidade para todo o Brasil)</p>
                 </section>
 
-                {/* Redes Sociais */}
+                {/* Social Media */}
                 <section className="bg-white shadow-md rounded-lg p-6 mb-6">
                     <h2 className="text-2xl font-bold mb-4">Redes Sociais</h2>
                     <p>
@@ -40,7 +41,7 @@ function Actor() {
                     </p>
                 </section>
 
-                {/* Educação */}
+                {/* Education */}
                 <section className="bg-white shadow-md rounded-lg p-6 mb-6">
                     <h2 className="text-2xl font-bold mb-4">Educação</h2>
                     <ul className="list-disc pl-5">
@@ -50,50 +51,46 @@ function Actor() {
                     </ul>
                 </section>
 
-                {/* Experiência Profissional */}
-                <section className="bg-white shadow-md rounded-lg p-6 mb-6">
-                <h2 className="text-2xl font-bold mb-4">Experiência Profissional</h2>
-                <ul className="list-disc pl-5">
-                    
-                    <li className="mb-8">
-                        <div className="flex flex-col">
-                            <div>
-                                Apresentação Teatral - Ator - Mostra Cênica &quot;Farsa&quot;, de Luís Fernando Veríssimo - Fevereiro 2023 a Agosto 2023 (7 meses)
-                                <ul className="list-disc pl-5 my-2">
-                                    <li>Primeira apresentação - 28 de junho de 2023 - Senac Franca</li>
-                                    <li>Segunda apresentação - 26 de agosto de 2023 - Ponto de Cultura Espaço Nulo</li>
-                                </ul>
-                            </div>
-                            
-                            {/* Clipping da Farsa */}
-                            <div className="mt-4">
-                                <h3 className="text-xl font-semibold mb-3">Registros sobre a Peça &quot;Farsa&quot;</h3>
-                                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                                    {[1, 2, 3, 4, 5, 6, 7].map((num) => (
-                                        <div key={num} className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                                            <img 
-                                                src={`/Farsa-${num}.jpeg`} 
-                                                alt={`Cena da peça Farsa - Imagem ${num}`}
-                                                className="w-full h-auto object-cover hover:scale-105 transition-transform"
-                                            />
-                                            <div className="p-2 bg-gray-50 text-center">
-                                                <p className="text-sm text-gray-600">Cena {num}</p>
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-                                <p className="mt-3 text-sm text-gray-500">
-                                    Fotos: Divulgação/Senac Franca e Espaço Nulo (2023)
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-
-                </ul>
-            </section>
+                {/* Professional Experience */}
                 <section className="bg-white shadow-md rounded-lg p-6 mb-6">
                     <h2 className="text-2xl font-bold mb-4">Experiência Profissional</h2>
                     <ul className="list-disc pl-5">
+                        <li className="mb-8">
+                            <div className="flex flex-col">
+                                <div>
+                                    Apresentação Teatral - Ator - Mostra Cênica &quot;Farsa&quot;, de Luís Fernando Veríssimo - Fevereiro 2023 a Agosto 2023 (7 meses)
+                                    <ul className="list-disc pl-5 my-2">
+                                        <li>Primeira apresentação - 28 de junho de 2023 - Senac Franca</li>
+                                        <li>Segunda apresentação - 26 de agosto de 2023 - Ponto de Cultura Espaço Nulo</li>
+                                    </ul>
+                                </div>
+                                
+                                {/* Farsa Play Clipping */}
+                                <div className="mt-4">
+                                    <h3 className="text-xl font-semibold mb-3">Registros sobre a Peça &quot;Farsa&quot;</h3>
+                                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                                        {[1, 2, 3, 4, 5, 6, 7].map((num) => (
+                                            <div key={num} className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                                                <Image 
+                                                    src={`/Farsa-${num}.jpeg`} 
+                                                    alt={`Cena da peça Farsa - Imagem ${num}`}
+                                                    width={500}
+                                                    height={300}
+                                                    className="w-full h-auto object-cover hover:scale-105 transition-transform"
+                                                />
+                                                <div className="p-2 bg-gray-50 text-center">
+                                                    <p className="text-sm text-gray-600">Cena {num}</p>
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </div>
+                                    <p className="mt-3 text-sm text-gray-500">
+                                        Fotos: Divulgação/Senac Franca e Espaço Nulo (2023)
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
                         <li>
                             Produção de vídeos para o TikTok, Instagram e YouTube - Produtor e Ator - 2024 - até o momento
                         </li>
@@ -105,39 +102,12 @@ function Actor() {
                             </ul>
                         </li>
                         <li>
-                            Apresentação Teatral - Ator - Mostra Cênica &quot;Farsa&quot;, de Luís Fernando Veríssimo - Fevereiro 2023 a Agosto 2023 (7 meses)
-                            <ul className="list-disc pl-5 mt-2">
-                                <li>Primeira apresentação - 28 de junho de 2023 - Senac Franca</li>
-                                <li>Segunda apresentação - 26 de agosto de 2023 - Ponto de Cultura Espaço Nulo</li>
-                            </ul>
-                        </li>
-                        <li>
                             Embaixador – Prêmio Jovem Brasileiro – Voluntário – 2021-2023 (3 anos)
                         </li>
-                        <div className="mt-4">
-                                <h3 className="text-xl font-semibold mb-3">Registros sobre a Peça "Farsa"</h3>
-                                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                                    {[1, 2, 3, 4, 5, 6, 7].map((num) => (
-                                        <div key={num} className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                                            <img 
-                                                src={`/pjb-${num}.jpeg`} 
-                                                alt={`Cena da peça Farsa - Imagem ${num}`}
-                                                className="w-full h-auto object-cover hover:scale-105 transition-transform"
-                                            />
-                                            <div className="p-2 bg-gray-50 text-center">
-                                                <p className="text-sm text-gray-600">Cena {num}</p>
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-                                <p className="mt-3 text-sm text-gray-500">
-                                    Fotos: Divulgação/Senac Franca e Espaço Nulo (2023)
-                                </p>
-                            </div>
                     </ul>
                 </section>
 
-                {/* Contato */}
+                {/* Contact */}
                 <section className="bg-white shadow-md rounded-lg p-6 mb-6">
                     <h2 className="text-2xl font-bold mb-4">Contato</h2>
                     <p>Para novos projetos e parcerias, entre em contato:</p>

@@ -1,5 +1,6 @@
-'use cluent'
+'use client'
 import { experiences } from '@/data/professionalExperience';
+import Image from 'next/image';
 
 function General() {
     return (
@@ -12,9 +13,9 @@ function General() {
                 </div>
             </header>
 
-            {/* Conteúdo Principal */}
+            {/* Main Content */}
             <div className="container mx-auto px-4 py-8">
-                {/* Sobre Mim */}
+                {/* About Me */}
                 <section className="bg-white shadow-md rounded-lg p-6 mb-6">
                     <h2 className="text-2xl font-bold mb-4">Sobre Mim</h2>
                     <p className="mb-2">Altura: 1,79m | Peso: 55 kg | Cabelo loiro ondulado | Olhos azuis.</p>
@@ -26,7 +27,7 @@ function General() {
                     <p>Localização: Franca - SP (Disponibilidade para todo o Brasil)</p>
                 </section>
 
-                {/* Redes Sociais */}
+                {/* Social Media */}
                 <section className="bg-white shadow-md rounded-lg p-6 mb-6">
                     <h2 className="text-2xl font-bold mb-4">Redes Sociais</h2>
                     <p>
@@ -41,7 +42,7 @@ function General() {
                     </p>
                 </section>
 
-                {/* Educação */}
+                {/* Education */}
                 <section className="bg-white shadow-md rounded-lg p-6 mb-6">
                     <h2 className="text-2xl font-bold mb-4">Educação</h2>
                     <ul className="list-disc pl-5">
@@ -67,7 +68,7 @@ function General() {
                     </ul>
                 </section>
 
-                {/* Experiência Profissional */}
+                {/* Professional Experience */}
                 <section className="bg-white shadow-md rounded-lg p-6 mb-6">
                     <h2 className="text-2xl font-bold mb-4">Experiência Profissional</h2>
                     <ul className="list-disc pl-5">
@@ -102,48 +103,8 @@ function General() {
                         ))}
                     </ul>
                 </section>
-                {/* <section className="bg-white shadow-md rounded-lg p-6 mb-6">
-                    <h2 className="text-2xl font-bold mb-4">Experiência Profissional</h2>
-                    <ul className="list-disc pl-5">
-                        <li>
-                            Produção de vídeos para o TikTok, Instagram e YouTube - Produtor e Ator - 2024 - até o momento
-                        </li>
-                        <li>
-                            Apresentação Teatral - Ator - Peça de Teatro "Corra, Elise, Corra" - de Carlos Drummond de Andrade, Andy Weir, Grace Passô e Mauro Júnior - Novembro 2024 a Março 2025 (5 meses)
-                            <ul className="list-disc pl-5 my-2">
-                                <li>Primeira apresentação - 15 de março de 2025 - Teatro Judas Iscariotes</li>
-                                <li>Primeira apresentação - 16 de março de 2025 - Teatro Judas Iscariotes</li>
-                            </ul>
-                        </li>
-                        <li>
-                            Estágio – Desenvolvedor Web – NovaHaus – Novembro 2022 a Outubro 2024 (1 ano e 11 meses)
-                            <ul className="list-disc pl-5 my-2">
-                                <li>Desenvolvimento de Páginas Web e e-mails marketing.</li>
-                            </ul>
-                        </li>
-                        <li>
-                            Apresentação Teatral - Ator - Mostra Cênica "Farsa", de Luís Fernando Veríssimo - Fevereiro 2023 a Agosto 2023 (7 meses)
-                            <ul className="list-disc pl-5 my-2">
-                                <li>Primeira apresentação - 28 de junho de 2023 - Senac Franca</li>
-                                <li>Segunda apresentação - 26 de agosto de 2023 - Ponto de Cultura Espaço Nulo</li>
-                            </ul>
-                        </li>
-                        <li>
-                            Embaixador – Prêmio Jovem Brasileiro – Voluntário – 2021-2023 (3 anos)
-                            <ul className="list-disc pl-5 my-2">
-                                <li>Desenvolvimento de conteúdo e postagens para o instagram do projeto</li>
-                            </ul>
-                        </li>
-                        <li>
-                            Estágio CIEE – Auxiliar Administrativo – Hotel Pedregulho – 2020 a 2021 (1 ano e 2 meses)
-                            <ul className="list-disc pl-5 my-2">
-                                <li>Controle financeiro, emissão de notas fiscais e acompanhamento da jornada dos hóspedes</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </section> */}
 
-                {/* Contato */}
+                {/* Contact */}
                 <section className="bg-white shadow-md rounded-lg p-6 mb-6">
                     <h2 className="text-2xl font-bold mb-4">Contato</h2>
                     <p>Para novos projetos e parcerias, entre em contato:</p>
