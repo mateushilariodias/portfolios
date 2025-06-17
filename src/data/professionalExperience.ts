@@ -20,6 +20,15 @@ export interface ProfessionalExperience {
 
 export const experiences: ProfessionalExperience[] = [
     {
+        id: "conselheiro-cultural",
+        role: "Conselheiro Municipal de Poltica Cultural",
+        company: "Conselho Municipal de Poltica Cultural de Franca/SP",
+        period: "Abril 2025 - até o momento",
+        duration: "Em andamento",
+        type: "job",
+        description: "Participação e engajamento no Conselho Municipal de Poltica Cultural no segmento de Artes Cênicas"
+    },
+    {
         id: "video-production",
         role: "Produtor e Ator",
         company: "Produção de vídeos para TikTok, Instagram e YouTube",
