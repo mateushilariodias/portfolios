@@ -1,6 +1,6 @@
 'use client'
+import { educations } from '@/data/educationExperience';
 import { experiences } from '@/data/professionalExperience';
-import Image from 'next/image';
 
 function General() {
     return (
@@ -46,25 +46,17 @@ function General() {
                 <section className="bg-white shadow-md rounded-lg p-6 mb-6">
                     <h2 className="text-2xl font-bold mb-4">Educação</h2>
                     <ul className="list-disc pl-5">
-                        <li>Imersão Teatral - Instituto Arte e Vida - Mauro Júnior - Agosto 2024 a Julho 2025</li>
-                        <li>Fotografia - Instituto Federal de Educação, Ciência e Tecnologia de Goiás - Curso Livre Online - 2025 - 60h</li>
-                        <li>Sonorização - Instituto Federal de Educação, Ciência e Tecnologia de Goiás - Curso Livre Online - 2025 - 60h </li>
-                        <li>Prestação de Contas de Propostas Simplificadas - Instituto Federal de Educação, Ciência e Tecnologia de Goiás - Curso Livre Online - 2025 - 60h</li>
-                        <li>Submissão de Propostas Simplificadas - Instituto Federal de Educação, Ciência e Tecnologia de Goiás - Curso Livre Online - 2025 - 60h</li>
-                        <li>Escrita e formatação de roteiro audiovisual de 1 min - Workshop de Escrita - Alexis Nehemy - Fevereiro 2025</li>
-                        <li>Elaboração de Projetos e Propostas Simplificadas - Instituto Federal de Educação, Ciência e Tecnologia de Goiás - Curso Livre Online - 2025 - 60h</li>
-                        <li>Produção Audiovisual - Instituto Federal de Educação, Ciência e Tecnologia de Goiás - Curso Livre Online - 2024 - 60h</li>
-                        <li>Escrita narrativa: das conversas que nunca tive - Rafael Bougleux - 2024</li>
-                        <li>A Escrita como Montagem: Introdução ao Roteiro Audiovisual - Oficina de Escrita - Caetano Barsoteli -Novembro 2024 </li>
-                        <li>Um Mergulho Profundo no Ofício do Ator - Luciano Risso - 01, 02 e 03 de novembro de 2024</li>
-                        <li>Laboratório de teatro da imagem a cena - Rafael Bougleux - 2023</li>
-                        <li>Da imagem a palavra ou narrativas impossíveis - Rafael Bougleux - 2023</li>
-                        <li>Dramaturgia: estrutura e ação - Caetano Barsoteli - 2023</li>
-                        <li>Página 11: da trama a cena - João Duarte, Rafael Bougleux, Caetano Barsoteli, Raphael Ventreschi - 2023</li>
-                        <li>Curso Superior de Tecnologia (CST) – Fatec Franca – Análise e Desenvolvimento de Sistemas – 2022 a 2024</li>
-                        <li>Administração – CIEE – 2020 a 2021</li>
-                        <li>Atores com Direcionamento para TV, Novela e Cinema – Escola Em cena – Curso Profissionalizante EAD - Agosto 2020 a Julho 2021 - 100h</li>
-                        <li>Desenvolvimento de Aplicativos e Jogos – EducaSP USP – 2019 - 40h</li>
+                    {educations.map((edu) => (
+                        <li key={edu.id} className="mb-2">
+                            <div className="font-medium">
+                                {edu.title} - {edu.institution} - {edu.period}
+                                {edu.hours && ` - ${edu.hours}h`}
+                            </div>
+                            {edu.instructors && (
+                                <p className="text-gray-600 text-sm">Instrutor(es): {edu.instructors.join(', ')}</p>
+                            )}
+                        </li>
+                        ))}
                     </ul>
                 </section>
 
