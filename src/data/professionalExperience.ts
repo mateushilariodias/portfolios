@@ -4,7 +4,7 @@ export interface ProfessionalExperience {
     company?: string;
     period: string;
     duration: string;
-    type: 'job' | 'theater' | 'volunteer';
+    type: 'actor' | 'systemsDeveloper' | 'culturalProducer' | 'systemsAnalyst' | 'writer';
     description: string;
     presentations?: {
         date: string;
@@ -25,7 +25,7 @@ export const experiences: ProfessionalExperience[] = [
         company: "Conselho Municipal de Poltica Cultural de Franca/SP",
         period: "Abril 2025 - até o momento",
         duration: "Em andamento",
-        type: "job",
+        type: "culturalProducer",
         description: "Participação e engajamento no Conselho Municipal de Poltica Cultural no segmento de Artes Cênicas"
     },
     {
@@ -34,7 +34,7 @@ export const experiences: ProfessionalExperience[] = [
         company: "Produção de vídeos para TikTok, Instagram e YouTube",
         period: "2024 - até o momento",
         duration: "Em andamento",
-        type: "job",
+        type: "actor",
         description: "Criação e produção de conteúdo audiovisual para redes sociais"
     },
     {
@@ -43,7 +43,7 @@ export const experiences: ProfessionalExperience[] = [
         company: "Peça 'Corra, Elise, Corra'",
         period: "Novembro 2024 - Março 2025",
         duration: "5 meses",
-        type: "theater",
+        type: "actor",
         description: "Peça de teatro baseada em obras de Carlos Drummond de Andrade, Andy Weir, Grace Passô e Mauro Júnior",
         presentations: [
             { date: "15 de março de 2025", location: "Teatro Judas Iscariotes" },
@@ -59,7 +59,7 @@ export const experiences: ProfessionalExperience[] = [
         company: "NovaHaus",
         period: "Novembro 2022 - Outubro 2024",
         duration: "1 ano e 11 meses",
-        type: "job",
+        type: "systemsDeveloper",
         description: "Desenvolvimento web full-stack",
         responsibilities: [
             "Desenvolvimento de Páginas Web",
@@ -73,7 +73,7 @@ export const experiences: ProfessionalExperience[] = [
         company: "Mostra Cênica 'Farsa'",
         period: "Fevereiro 2023 - Agosto 2023",
         duration: "7 meses",
-        type: "theater",
+        type: "actor",
         description: "Peça teatral de Luís Fernando Veríssimo",
         presentations: [
             { date: "28 de junho de 2023", location: "Senac Franca" },
@@ -91,7 +91,7 @@ export const experiences: ProfessionalExperience[] = [
         company: "Prêmio Jovem Brasileiro",
         period: "2021 - 2023",
         duration: "3 anos",
-        type: "volunteer",
+        type: "culturalProducer",
         description: "Representação e divulgação do prêmio",
         responsibilities: [
             "Desenvolvimento de conteúdo para redes sociais",
@@ -105,7 +105,7 @@ export const experiences: ProfessionalExperience[] = [
         company: "Hotel Pedregulho",
         period: "2020 - 2021",
         duration: "1 ano e 2 meses",
-        type: "job",
+        type: "systemsAnalyst",
         description: "Atendimento e gestão administrativa",
         responsibilities: [
             "Controle financeiro",
