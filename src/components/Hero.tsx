@@ -18,7 +18,7 @@ function Hero() {
 
                 <div className="my-6">
                     <a
-                        href="#general"
+                        href="/general"
                         className="inline-block bg-white text-black font-bold px-8 py-3 rounded-2xl shadow-md hover:bg-gray-200 transition uppercase"
                     >
                         Comece por Geral

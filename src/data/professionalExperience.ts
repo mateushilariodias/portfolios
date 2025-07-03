@@ -19,6 +19,22 @@ export interface ProfessionalExperience {
 }
 
 export const experiences: ProfessionalExperience[] = [
+        {
+        id: "ENQUANTO O MUNDO ACABA",
+        role: "Produtor Executivo",
+        company: " Espetáculo/Performance 'ENQUANTO O MUNDO ACABA'",
+        period: "Abril 2025 - Junho 2025",
+        duration: "3 meses",
+        type: "culturalProducer",
+        description: "Espetáculo/Performance: Resultado de uma pesquisa de linguagem centrada na performance, ENQUANTO O MUNDO ACABA é uma experiência sensorial e performativa que convida o público a atravessar, de forma imersiva, paisagens de guerra, memória e humanidade. Fruto de uma criação colaborativa com os alunos-atores-performers do Curso de Imersão Teatral do Instituto Arte e Vida, sob orientação e supervisão artística de Mauro Júnior, a experiência propõe um percurso às cegas — literal e simbolicamente. Entre cheiros, sons, texturas e imagens que evocam os horrores da guerra, a alienação contemporânea e a luta pela sobrevivência, o público é instigado a refletir sobre o colapso do mundo — e sobre o que ainda pulsa dentro de si. Do silêncio da dor ao grito da esperança, do descarte simbólico à reconstrução impossível, cada cena tensiona o sensível, o político e o existencial. Ao final, resta a pergunta: diante do fim, o que ainda somos capazes de sentir, lembrar ou fazer?",
+        presentations: [
+            { date: "28 de junho de 2025 - 18h", location: "Teatro Judas Iscariotes" },
+            { date: "28 de junho de 2025 - 20h", location: "Teatro Judas Iscariotes" }
+        ],
+        images: [
+            { src: "/corra-elise-1.jpg", alt: "Cena da peça Corra, Elise, Corra" }
+        ]
+    },
     {
         id: "conselheiro-cultural",
         role: "Conselheiro Municipal de Poltica Cultural",
