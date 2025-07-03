@@ -6,11 +6,11 @@ import { FaInstagram, FaTiktok, FaYoutube, FaLinkedin, FaWhatsapp, FaEnvelope } 
 function Footer() {
     return (
         <footer className="bg-white text-black w-full py-4 lg:py-8">
-            <section className="flex flex-col lg:flex-row justify-between items-start gap-8 px-4 lg:px-16 xl:px-40">
+            <section className="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-8 px-4 lg:px-16 xl:px-40 text-center lg:text-left">
                 
                 {/* Navegação das seções do portfólio */}
-                <nav className="flex flex-col gap-2">
-                    <h3 className="font-bold text-xl pb-2">Portfólio</h3>
+                <nav className="flex flex-wrap justify-center gap-4 lg:flex-col lg:items-start lg:gap-2">
+                    <h3 className="w-full font-bold text-xl pb-2 text-center lg:text-left">Portfólio</h3>
                     <Link href="/actor" className="hover:text-gray-500 transition">Ator</Link>
                     <Link href="/systemsDeveloper" className="hover:text-gray-500 transition">Desenvolvedor</Link>
                     <Link href="/culturalProducer" className="hover:text-gray-500 transition">Produtor</Link>
@@ -20,7 +20,7 @@ function Footer() {
                 </nav>
 
                 {/* Contato */}
-                <address className="not-italic flex flex-col gap-4">
+                <address className="not-italic flex flex-col items-center lg:items-start gap-4">
                     <h3 className="font-bold text-xl">Contato</h3>
                     <Link
                         href="mailto:mateushilariodias@gmail.com?subject=T%C3%ADtulo%20do%20e-mail&body=Olá,%20tudo%20bem?%0D%0A%0D%0AEstou..."
@@ -39,7 +39,7 @@ function Footer() {
                 </address>
 
                 {/* Redes Sociais */}
-                <div className="flex flex-col items-start gap-4">
+                <div className="flex flex-col items-center lg:items-start gap-4">
                     <h3 className="font-bold text-xl">Mídias sociais</h3>
                     <div className="flex gap-5 text-2xl">
                         <Link href="https://www.tiktok.com/@mateushilariodias" className="hover:text-gray-500 transition">
@@ -57,8 +57,8 @@ function Footer() {
                     </div>
                 </div>
             </section>
-            <div className="text-center mt-6 text-sm lg:text-base">
-                &copy; 2025 Mateus Dias. Todos os direitos reservados.
+            <div className="text-center mt-6 px-6 lg:px-0 text-sm lg:text-base">
+                 <strong>&copy; 2025 Mateus Dias</strong>. Todos os direitos reservados.
             </div>
         </footer>
     )
