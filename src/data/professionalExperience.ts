@@ -51,7 +51,7 @@ export const experiences: ProfessionalExperience[] = [
         period: "2024 - até o momento",
         duration: "Em andamento",
         type: "actor",
-        description: "Criação e produção de conteúdo audiovisual para redes sociais"
+        description: "Criação e produção de conteúdo audiovisual para redes sociais: TikTok, Instagran e Youtube"
     },
     {
         id: "corra-elise-corra",
@@ -81,6 +81,20 @@ export const experiences: ProfessionalExperience[] = [
             "Desenvolvimento de Páginas Web",
             "Criação de e-mails marketing",
             "Manutenção de sistemas existentes"
+        ]
+    },
+        {
+        id: "oriri-agencia-cultural",
+        role: "Produtor Cultural (Estágio Voluntário)",
+        company: "Oriri Agencia Cultural",
+        period: "Março 2023 - Abril 2023",
+        duration: "2 meses",
+        type: "culturalProducer",
+        description: "Decupagem de editais culturais, escrita e correção de projetos culturais",
+        responsibilities: [
+            "Decupagem de editais culturais",
+            "Escrita de projetos culturais",
+            "Correção de projetos culturais"
         ]
     },
     {
