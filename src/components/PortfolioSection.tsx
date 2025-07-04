@@ -1,7 +1,7 @@
 'use client'
 
-import { educations, EducationExperience } from "@/data/educationExperience"; // ajuste conforme o caminho real
-import { experiences, ProfessionalExperience } from "@/data/professionalExperience";
+import { educations } from "@/data/educationExperience"; // ajuste conforme o caminho real
+import { experiences } from "@/data/professionalExperience";
 import Image from "next/image";
 
 interface Props {
