@@ -70,7 +70,7 @@ function PortfolioSection({ area }: Props) {
                   {exp.images.map((img, idx) => (
                     <div key={idx} className="relative w-full h-64 rounded overflow-hidden shadow-md">
                       <Image
-                        src={img.src.startsWith('/') ? img.src : `/images/${img.src}`}
+                        src={img.src}
                         alt={img.alt}
                         layout="fill"
                         objectFit="cover"

@@ -65,9 +65,9 @@ export const experiences: ProfessionalExperience[] = [
             { date: "15 de março de 2025", location: "Teatro Judas Iscariotes" },
             { date: "16 de março de 2025", location: "Teatro Judas Iscariotes" }
         ],
-        images: [
-            { src: "/corra-elise-1.jpg", alt: "Cena da peça Corra, Elise, Corra" }
-        ]
+        // images: [
+        //     { src: "/images/corra-elise-1.jpg", alt: "Cena da peça Corra, Elise, Corra" }
+        // ]
     },
     {
         id: "novahaus",
@@ -110,7 +110,7 @@ export const experiences: ProfessionalExperience[] = [
             { date: "26 de agosto de 2023", location: "Ponto de Cultura Espaço Nulo" }
         ],
         images: Array.from({ length: 7 }, (_, i) => ({
-            src: `/Farsa-${i + 1}.jpeg`,
+            src: `/images/Farsa-${i + 1}.jpeg`,
             alt: `Cena ${i + 1} da peça Farsa`,
             credit: "Divulgação/Espaço Nulo"
         }))
