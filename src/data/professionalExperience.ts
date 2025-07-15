@@ -109,7 +109,7 @@ export const experiences: ProfessionalExperience[] = [
             { date: "28 de junho de 2023", location: "Senac Franca" },
             { date: "26 de agosto de 2023", location: "Ponto de Cultura Espaço Nulo" }
         ],
-        images: Array.from({ length: 7 }, (_, i) => ({
+        images: Array.from({ length: 6 }, (_, i) => ({
             src: `/images/Farsa-${i + 1}.jpeg`,
             alt: `Cena ${i + 1} da peça Farsa`,
             credit: "Divulgação/Espaço Nulo"

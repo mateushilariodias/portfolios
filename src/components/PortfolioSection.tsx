@@ -1,6 +1,6 @@
 'use client'
 
-import { educations } from "@/data/educationExperience"; // ajuste conforme o caminho real
+import { educations } from "@/data/educationExperience";
 import { experiences } from "@/data/professionalExperience";
 import Image from "next/image";
 
@@ -68,12 +68,12 @@ function PortfolioSection({ area }: Props) {
               {exp.images && exp.images.length > 0 && (
                 <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   {exp.images.map((img, idx) => (
-                    <div key={idx} className="relative w-full h-64 rounded overflow-hidden shadow-md">
+                    <div key={idx} className="relative w-full h-80 bg-black rounded overflow-hidden shadow-md">
                       <Image
                         src={img.src}
                         alt={img.alt}
                         layout="fill"
-                        objectFit="cover"
+                        objectFit="contain"
                         className="rounded"
                       />
                       {img.credit && (
