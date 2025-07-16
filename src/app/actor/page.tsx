@@ -5,6 +5,7 @@ export default function ActorPage() {
     <main className="bg-gray-50 min-h-screen">
       <div className="py-12 text-center">
         <h1 className="text-4xl font-bold">Ator</h1>
+        <p>DRT: 0002340/RN</p>
         <p className="text-lg text-gray-700 mt-2">Formações e experiências profissionais</p>
       </div>
       <PortfolioSection area="actor" />
