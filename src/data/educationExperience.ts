@@ -12,6 +12,15 @@ export interface EducationExperience {
 
 export const educations: EducationExperience[] = [
     {
+        id: "direcao-de-atores",
+        title: "Direção de Atores",
+        institution: "Mesa Para Um - Ponto de Cultura Espaço Nulo",
+        type: "workshop",
+        period: "Julho 2025",
+        instructors: ["Caetano Barsoteli"],
+        area: "culturalProducer"
+    },
+    {
         id: "imersao-teatral",
         title: "Imersão Teatral",
         institution: "Instituto Arte e Vida",
@@ -59,7 +68,7 @@ export const educations: EducationExperience[] = [
     {
         id: "roteiro-1min",
         title: "Escrita e formatação de roteiro audiovisual de 1 min",
-        institution: "Workshop de Escrita",
+        institution: "Página 11 - Ponto de Cultura Espaço Nulo",
         type: "workshop",
         period: "Fevereiro 2025",
         instructors: ["Alexis Nehemy"],
@@ -86,7 +95,7 @@ export const educations: EducationExperience[] = [
     {
         id: "escrita-narrativa",
         title: "Escrita narrativa: das conversas que nunca tive",
-        institution: "Curso com Rafael Bougleux",
+        institution: "Página 11 - Ponto de Cultura Espaço Nulo",
         type: "workshop",
         period: "2024",
         instructors: ["Rafael Bougleux"],
@@ -95,7 +104,7 @@ export const educations: EducationExperience[] = [
     {
         id: "escrita-montagem",
         title: "A Escrita como Montagem: Introdução ao Roteiro Audiovisual",
-        institution: "Oficina de Escrita",
+        institution: "Página 11 - Ponto de Cultura Espaço Nulo",
         type: "workshop",
         period: "Novembro 2024",
         instructors: ["Caetano Barsoteli"],
@@ -104,7 +113,7 @@ export const educations: EducationExperience[] = [
     {
         id: "mergulho-ator",
         title: "Um Mergulho Profundo no Ofício do Ator",
-        institution: "Curso com Luciano Risso",
+        institution: "Quintal ACT",
         type: "workshop",
         period: "01, 02 e 03 de novembro de 2024",
         instructors: ["Luciano Risso"],
@@ -113,7 +122,7 @@ export const educations: EducationExperience[] = [
     {
         id: "laboratorio-teatro",
         title: "Laboratório de teatro da imagem a cena",
-        institution: "Curso com Rafael Bougleux",
+        institution: "Ponto de Cultura Espaço Nulo",
         type: "workshop",
         period: "2023",
         instructors: ["Rafael Bougleux"],
@@ -122,7 +131,7 @@ export const educations: EducationExperience[] = [
     {
         id: "imagem-palavra",
         title: "Da imagem a palavra ou narrativas impossíveis",
-        institution: "Curso com Rafael Bougleux",
+        institution: "Página 11 - Ponto de Cultura Espaço Nulo",
         type: "workshop",
         period: "2023",
         instructors: ["Rafael Bougleux"],
@@ -131,7 +140,7 @@ export const educations: EducationExperience[] = [
     {
         id: "dramaturgia-estrutura",
         title: "Dramaturgia: estrutura e ação",
-        institution: "Curso com Caetano Barsoteli",
+        institution: "Página 11 - Ponto de Cultura Espaço Nulo",
         type: "workshop",
         period: "2023",
         instructors: ["Caetano Barsoteli"],
